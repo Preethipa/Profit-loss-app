@@ -1,5 +1,18 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Cabin&family=Karla&family=Lato&family=Merriweather&family=Playfair+Display&family=Secular+One&family=Sono&family=Source+Sans+Pro&family=Space+Grotesk&display=swap');
 
+:root{
+    --primary-color:#4f46e5;
+    --light-blue: #e0e7ff;
+}
+
+body{
+    background-color:var(--light-blue);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1{
+    color:var(--primary-color);
+    margin-bottom: 3rem;
 }
 
 main{
@@ -7,4 +20,25 @@ main{
     width: 100%;
     text-align: center;
     font-size: larger;
+}
+
+label{
+    
+    display: block;
+    margin-top: 0.5rem;
+}
+
+input{
+    padding: 0.5rem 0.5rem;
+    border-color: var(--primary-color);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+button{
+    background: transparent;
+    border-color: var(--primary-color);
+    padding: 0.4rem 0.4rem;
+    color:var(--primary-color);
+    border-width: medium;
+    font-family: 'Space Grotesk', sans-serif;
 }

@@ -8,9 +8,9 @@ const outputShown = document.querySelector("#output-shown");
 tellmeBtn.addEventListener("click", submitHandler);
 
 function submitHandler(){
-    var ip = initialPrice.value;
-    var qty = stackQty.value;
-    var cp = currentPrice.value;
+    var ip = Number(initialPrice.value);
+    var qty = Number(stackQty.value);
+    var cp = Number(currentPrice.value);
 
     calculateProfitAndLoss(ip, qty, cp);
 }
@@ -32,7 +32,7 @@ function calculateProfitAndLoss(initialprice, stackqty, currentprice){
     }
 
     else{
-        showOutput("No pain no gain and No gain no pain"); 
+        showOutput("No pain no gain and No gain no pain🙃"); 
     }
 
 }
