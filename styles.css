@@ -23,7 +23,7 @@ main{
 }
 
 label{
-    
+
     display: block;
     margin-top: 0.5rem;
 }
@@ -41,4 +41,8 @@ button{
     color:var(--primary-color);
     border-width: medium;
     font-family: 'Space Grotesk', sans-serif;
+}
+
+#output-shown{
+    margin-top: 0.8rem;
 }
