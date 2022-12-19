@@ -1,6 +1,4 @@
 # Profit-loss-app
-Using this website, we can find whether the stocks price is profit or loss.
-
 
 Welcome to my profilio! I make this stock profit-loss calculator by using JavaScript, HTML and CSS learned from neog.camp.
 This calculate will helps to check the profit and loss of stocks when he/she bought it. 
